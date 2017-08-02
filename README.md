@@ -2,7 +2,7 @@
 
 Java Implementation of Coherent Point Drift
 
-![2D_fish](https://github.com/OemalK/CoherentPointDrift-Java/blob/master/test0.png)
+![2D_fish](https://github.com/VerliererK/Coherent-Point-Drift-Java/blob/master/test0.png)
 
 ## Library
 
