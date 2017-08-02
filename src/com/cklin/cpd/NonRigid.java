@@ -1,6 +1,7 @@
 package com.cklin.cpd;
 
 import com.cklin.math.ArraysMath;
+import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
 import static com.cklin.math.ArraysUtils.*;
 
@@ -37,7 +38,6 @@ public class NonRigid {
 
         while ((iter < max_it) && (ntol > tol) && (sigma2 > 1e-8)) //(sigma2 > 1e-8)
         {
-            //I don't implement the Fast Gauss Transform (FGT)
             L_old = L;
             ProbabilityMatrix P;
             if (cpd.opt.fgt) {

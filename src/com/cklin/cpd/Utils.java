@@ -3,6 +3,7 @@ package com.cklin.cpd;
 import static com.cklin.math.ArraysUtils.*;
 
 import com.cklin.math.ArraysMath;
+import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 import test.Plot;
 
 class Utils {
@@ -24,8 +25,7 @@ class Utils {
                     T = NonRigid.GRBF(cpd);
                 break;
             case NonRigid_lowRank:
-                T = NonRigid.GRBF_lowrank(cpd);
-                break;
+                throw new NotImplementedException();
             case Rigid:
                 T = Rigid.rigid(cpd);
                 break;
